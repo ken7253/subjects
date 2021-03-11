@@ -5,9 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="./test/test.mjs" type="module"></script>
+  <style>
+    #resultOutput {
+      display: block;
+      height: 500px;
+      background-color: black;
+      border-radius: 15px;
+      color: blanchedalmond;
+      padding: 50px;
+    }
+  </style>
 </head>
 <body>
-  <code id="resultOutput"></code>
-  <input type="button" value="run">
+  <h1>Modern Javascript Practice</h1>
+  <code id="resultOutput">server start<br>error!<br>=> コンソール見てみて<br><span style="color: red;">CORS policy: Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, chrome-untrusted, https.</span><br>とか出てたらファイルとしてhtmlを開いているのでちゃんとサーバーを起動しよう！</code>
+  <input type="button" value="run" id="runFunction">
 </body>
 </html>

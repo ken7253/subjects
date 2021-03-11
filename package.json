@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ken7253/subjects.git"
@@ -15,5 +12,6 @@
   "bugs": {
     "url": "https://github.com/ken7253/subjects/issues"
   },
-  "homepage": "https://github.com/ken7253/subjects#readme"
+  "homepage": "https://github.com/ken7253/subjects#readme",
+  "keywords": []
 }
