@@ -1,4 +1,4 @@
-# ModernJavaScript
+# ModernJavaScript-01
 
 ## description
 
@@ -6,7 +6,7 @@
 JavaScriptの基礎的な文法をマスターした方向けに開発をしています。  
 環境構築から始まり、より高度な書き方を学び個人開発が行えるレベルまでのサポートを行います。
 
-ブラウザで見たい場合は[こちら](https://github.com/ken7253/subjects/blob/master/modern-javascript/README.md)
+ブラウザで見たい場合は[こちら](https://github.com/ken7253/subjects/blob/master/modern-javascript/01/README.md)
 
 ## npm環境構築
 
@@ -24,17 +24,17 @@ Webサイトやサービスの表現力や機能の拡大に伴い開発に必�
 ターミナルが下記のようになっていることを確認して  
 
 ```ps
-  PS **\subject\modern-javascript> 
+  PS **\subject\modern-javascript\resources> 
 ```
 
-（ >の左側が `\subject\modern-javascript>` となっていれば大丈夫です！ ）  
+（ >の左側が `\subject\modern-javascript\resources>` となっていれば大丈夫です！ ）  
 
 ```shell
   npm init -y
 ```
 
 と打ち込みnpmを初期化しましょう。  
-そうすると新しく `package.json` というファイルが生成されます。 
+そうすると新しく `package.json` というファイルが生成されます。
 
 <details>
 <summary>コマンド解説</summary>
